@@ -13,6 +13,7 @@
 		9B53F3E81AA7701B00AEBCC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B53F3E71AA7701B00AEBCC7 /* Images.xcassets */; };
 		9B53F3EB1AA7701B00AEBCC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B53F3E91AA7701B00AEBCC7 /* LaunchScreen.xib */; };
 		9B53F3F71AA7701B00AEBCC7 /* BouncingButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53F3F61AA7701B00AEBCC7 /* BouncingButtonsTests.swift */; };
+		9B53F4011AA7706000AEBCC7 /* BouncingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53F4001AA7706000AEBCC7 /* BouncingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9B53F3F01AA7701B00AEBCC7 /* BouncingButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncingButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B53F3F51AA7701B00AEBCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B53F3F61AA7701B00AEBCC7 /* BouncingButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingButtonsTests.swift; sourceTree = "<group>"; };
+		9B53F4001AA7706000AEBCC7 /* BouncingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				9B53F3E71AA7701B00AEBCC7 /* Images.xcassets */,
 				9B53F3E91AA7701B00AEBCC7 /* LaunchScreen.xib */,
 				9B53F3DE1AA7701B00AEBCC7 /* Supporting Files */,
+				9B53F4001AA7706000AEBCC7 /* BouncingButton.swift */,
 			);
 			path = BouncingButtons;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B53F4011AA7706000AEBCC7 /* BouncingButton.swift in Sources */,
 				9B53F3E31AA7701B00AEBCC7 /* ViewController.swift in Sources */,
 				9B53F3E11AA7701B00AEBCC7 /* AppDelegate.swift in Sources */,
 			);
